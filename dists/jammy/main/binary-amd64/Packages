@@ -1,0 +1,2197 @@
+Package: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 2443
+Depends: ze-apr, ze-apr-util, ze-apache24-mod-mpm-prefork | ze-apache24-mod-mpm-worker | ze-apache24-mod-mpm-event, ze-apache24-mod-ssl, ze-documentroot, ze-apache24-tools, ze-apache24-mod-bwlimited, ze-apache24-mod-proxy-wstunnel, ze-apache24-mod-headers, ze-apache24-mod-proxy-http, ze-apache24-mod-proxy, openssl, elinks, perl:any, libc6 (>= 2.34), libpcre3
+Conflicts: apache2, apache2-bin, apache2.2, apache2.2-bin
+Filename: pool/jammy/main/ze-apache24_2.4.51-4_amd64.deb
+Size: 627916
+MD5sum: 8c1cf7a1accca3ceffe6f3e208e8c615
+SHA1: e79f3e24f6744a94392f95bbe8d6620bf1fd0d62
+SHA256: d4eaf00487c2261411a34ad252b901672e86caa6f0cd890039758e0f5357eb01
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: Apache HTTP Server
+ The Apache HTTP Server Project's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ Installing this package results in a full installation, including the
+ configuration files, init scripts and support scripts.
+
+Package: ze-apache24-dev
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 918
+Depends: ze-apr-dev, ze-apr-util-dev, ze-apache24, pkg-config, openssl, perl:any
+Provides: ze-apache24-dev
+Filename: pool/jammy/main/ze-apache24-dev_2.4.51-4_amd64.deb
+Size: 173816
+MD5sum: 13b3f770c1b7632338b7b0dbde500fbe
+SHA1: abaaabac9bce07fc3517357a4d0268d174fb1ca6
+SHA256: db361bc9cb44d2d5c8385e5477340036cecfe827bb697601e00b9e421012b940
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The ze-apache24-dev package contains the APXS binary and other files
+ that you need to build Dynamic Shared Objects (DSOs) for the
+ Apache HTTP Server.
+ .
+ If you are installing the Apache HTTP server and you want to be
+ able to compile or develop additional modules for Apache, you need
+ to install this package.
+
+Package: ze-apache24-manual
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 7590
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-manual
+Filename: pool/jammy/main/ze-apache24-manual_2.4.51-4_amd64.deb
+Size: 2279594
+MD5sum: aaeb11aeceebaa54018571bb9b8c1cad
+SHA1: 5e3cd66e3a991d52a0eb988c7d7304c4eb161574
+SHA256: ff73aefabe497f972a907e87720845c9f0e0d704edd32103439182cd8fb279a9
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The ze-apache24-manual package contains the complete manual and
+ reference guide for the Apache HTTP server. The information can
+ also be found at http://httpd.apache.org/docs/2.4/.
+
+Package: ze-apache24-mod-allowmethods
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-allowmethods
+Filename: pool/jammy/main/ze-apache24-mod-allowmethods_2.4.51-4_amd64.deb
+Size: 3924
+MD5sum: 0cf8b7586db54376c82d568d16aa335d
+SHA1: 8e6d21cb7c6b6cb69c52edc3dfb07d029cd17cf7
+SHA256: ff1b45981709c81c38c1b2fc792683f90a0660f7e6764143cc2f14e9398c8639
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_allowmethods module makes it easy to restrict what HTTP
+ methods can used on an server.
+
+Package: ze-apache24-mod-asis
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-asis
+Filename: pool/jammy/main/ze-apache24-mod-asis_2.4.51-4_amd64.deb
+Size: 4314
+MD5sum: ece27e7fe927c14bfc5aaf3a4ef167f0
+SHA1: 865ed02be0f03819d87a6d2b95e84bb7289d18a6
+SHA256: c1c12906c9736a22309da2b19e194aaade2470040ab79ff28dbfb1d86caa663e
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_asis module provides the handler send-as-is which causes
+ Apache HTTP Server to send the document without adding most of the
+ usual HTTP headers.
+
+Package: ze-apache24-mod-auth-digest
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 55
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-auth-digest
+Filename: pool/jammy/main/ze-apache24-mod-auth-digest_2.4.51-4_amd64.deb
+Size: 15718
+MD5sum: df34349f56f93192a571a4ff90ef5e64
+SHA1: 2ba74e096d44707844ed3b4173844e9f75822cf5
+SHA256: f2a3ca21131a80f8aae9bed8900d0b7977ed1bba5961e636f0ff59adf509b327
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_auth_digest module implements HTTP Digest Authentication
+ (RFC2617), and provides an alternative to mod_auth_basic where the
+ password is not transmitted as cleartext. However, this does not lead
+ to a significant security advantage over basic authentication. On the
+ other hand, the password storage on the server is much less secure
+ with digest authentication than with basic authentication. Therefore,
+ using basic auth and encrypting the whole connection using mod_ssl is
+ a much better alternative.
+ .
+ mod_auth_digest requires at least one authentication provider module,
+ and one authorization provider module.
+
+Package: ze-apache24-mod-authn-anon
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-authn
+Filename: pool/jammy/main/ze-apache24-mod-authn-anon_2.4.51-4_amd64.deb
+Size: 4474
+MD5sum: 8f6cd7f9b85ecc9efe562816393ae85a
+SHA1: 6630e7101c47c5de2c66972a9bf83242833a2c15
+SHA256: 6e000d9f108e7f2ff0df784403d64cdec236d824d90a1fde5943a25441cf5394
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authn_anon module provides authentication front-ends such as
+ mod_auth_basic to authenticate users similar to anonymous-ftp sites,
+ i.e. have a 'magic' user id 'anonymous' and the email address as a
+ password. These email addresses can be logged.
+ .
+ Combined with other (database) access control methods, this allows for
+ effective user tracking and customization according to a user profile
+ while still keeping the site open for 'unregistered' users. One
+ advantage of using Auth-based user tracking is that, unlike
+ magic-cookies and funny URL pre/postfixes, it is completely browser
+ independent and it allows users to share URLs.
+
+Package: ze-apache24-mod-authn-dbd
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-authn
+Filename: pool/jammy/main/ze-apache24-mod-authn-dbd_2.4.51-4_amd64.deb
+Size: 5682
+MD5sum: 5dc1adcc0ecd92a62581c478e8128ae1
+SHA1: 2383f3f9123a68bd315be30006a8c9a240d6362e
+SHA256: a9d664fbf6879cc5b5926e4a04ab640d2783da759cd046d1d06c4e2b68486570
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authn_dbd module provides authentication front-ends such as
+ mod_auth_digest and mod_auth_basic to authenticate users by looking up
+ users in SQL tables. Similar functionality is provided by, for
+ example, mod_authn_file.
+
+Package: ze-apache24-mod-authn-dbm
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-authn
+Filename: pool/jammy/main/ze-apache24-mod-authn-dbm_2.4.51-4_amd64.deb
+Size: 4588
+MD5sum: deff99293f6d65f418e38be6dd3656ea
+SHA1: 24b59cf8f4a167734dea6331ec9fa35143b8cf79
+SHA256: 01be50b9996ac0e1e8a8a8717ac35319c6297bf926b80a52f8580ef3e6c29043
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authn_dbm module provides authentication front-ends such as
+ mod_auth_digest and mod_auth_basic to authenticate users by looking up
+ users in dbm password files. Similar functionality is provided by
+ mod_authn_file.
+
+Package: ze-apache24-mod-authn-socache
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 39
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-authn-socache
+Filename: pool/jammy/main/ze-apache24-mod-authn-socache_2.4.51-4_amd64.deb
+Size: 7664
+MD5sum: b54f9931dd1732128ac4a51daa7e38cd
+SHA1: 27adad4b4da75a6923c984ffa2507ec087d080a8
+SHA256: 993f6afbdce1b94a62165add3086f0ce450a3beeed2d678598b52b9456b31acd
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authn_socache module maintains a cache of authentication
+ credentials, so that a new backend lookup is not required for every
+ authenticated request.
+
+Package: ze-apache24-mod-authnz-ldap
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 71
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-authn
+Filename: pool/jammy/main/ze-apache24-mod-authnz-ldap_2.4.51-4_amd64.deb
+Size: 19976
+MD5sum: f3c2bf50bb4d5db063d739762cfe920a
+SHA1: e7945b45e3ba482a1f1d4c7651e7a9aaa2637bf9
+SHA256: ac03a6b19fb0e33b9f6801bf7ec7b79ec08d0619f2fd358ccebc3929bba96d63
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authnz_ldap module allows authentication front-ends such as
+ mod_auth_basic to authenticate users through an LDAP directory.
+
+Package: ze-apache24-mod-authz-dbd
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-authz
+Filename: pool/jammy/main/ze-apache24-mod-authz-dbd_2.4.51-4_amd64.deb
+Size: 6576
+MD5sum: e86b71ddd5a93a6d3a2a710786a7e284
+SHA1: 6a7b96b88dca8cbdd9babf6f4fecab53f9c82661
+SHA256: 80330299c0f94a86345e003d3325bacecfdc1ed902221808364752b56fa6592c
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authz_dbd module provides authorization capabilities so that
+ authenticated users can be allowed or denied access to portions of the
+ web site by group membership. Similar functionality is provided by
+ mod_authz_groupfile and mod_authz_dbm, with the exception that this
+ module queries a SQL database to determine whether a user is a member
+ of a group.
+
+Package: ze-apache24-mod-authz-dbm
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-authz
+Filename: pool/jammy/main/ze-apache24-mod-authz-dbm_2.4.51-4_amd64.deb
+Size: 5614
+MD5sum: 5fc080f3e18b320aa130e9b358b3574b
+SHA1: 2002aabcfb47360541c8ab7d815264efb32b2c57
+SHA256: ec9866e1eb3f50e7975815611dbdb878daedf6bd9384442a4ecdd6ea45bd24dd
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authz_dbm module provides authorization capabilities so that
+ authenticated users can be allowed or denied access to portions of the
+ web site by group membership. Similar functionality is provided by
+ mod_authz_groupfile.
+
+Package: ze-apache24-mod-authz-owner
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-authz
+Filename: pool/jammy/main/ze-apache24-mod-authz-owner_2.4.51-4_amd64.deb
+Size: 4384
+MD5sum: f89e86ab24f70d9e2421830a0482caed
+SHA1: 5cba88dd0ba98215c1ae69065a66a0cca130bd12
+SHA256: 80258d578fde1c5adfc87568309b5ccecaa886eb078bd2aa535f673f1cdd7487
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_authz_owner module authorizes access to files by comparing the
+ userid used for HTTP authentication (the web userid) with the
+ file-system owner or group of the requested file. The supplied
+ username and password must be already properly verified by an
+ authentication module, such as mod_auth_basic or mod_auth_digest.
+
+Package: ze-apache24-mod-brotli
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 41
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-brotli
+Filename: pool/jammy/main/ze-apache24-mod-brotli_2.4.51-4_amd64.deb
+Size: 7780
+MD5sum: b0dc0818ef2996452b6fac11a0819bc7
+SHA1: 301599d8bc24c38ecbcdfa630fa7cceddf04f356
+SHA256: 75c1ae76e9ec8affda61eeb7c375bcf1e10724a717a863ce8a7053bb50700d92
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_brotli module provides the BROTLI_COMPRESS output filter that allows
+ output from your server to be compressed using the brotli compression format
+ before being sent to the client over the network.
+
+Package: ze-apache24-mod-buffer
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-buffer
+Filename: pool/jammy/main/ze-apache24-mod-buffer_2.4.51-4_amd64.deb
+Size: 5300
+MD5sum: efd3f09af88c6c712e8d6e0820457ce0
+SHA1: 2257c96008eac2091bbeb57bc607eb0d5ae25bd1
+SHA256: 7fa653663447aadbd3b190fa59897f743808c85a1dad76939b38e170c20d03bf
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_buffer module provides the ability to buffer the input and
+ output filter stacks.
+ .
+ Under certain circumstances, content generators might create content
+ in small chunks. In order to promote memory reuse, in memory chunks
+ are always 8k in size, regardless of the size of the chunk
+ itself. When many small chunks are generated by a request, this can
+ create a large memory footprint while the request is being processed,
+ and an unnecessarily large amount of data on the wire. The addition of
+ a buffer collapses the response into the fewest chunks possible.
+ .
+ When httpd is used in front of an expensive content generator,
+ buffering the response may allow the backend to complete processing
+ and release resources sooner, depending on how the backend is
+ designed.
+
+Package: ze-apache24-mod-cache
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 95
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-cache
+Filename: pool/jammy/main/ze-apache24-mod-cache_2.4.51-4_amd64.deb
+Size: 30774
+MD5sum: 1caf338183ec9bc3c08a49e7c7666e38
+SHA1: 173a98f30ebc008555bbfe04735772ee6916daa2
+SHA256: 4c9f0d513d613a0c317cdb45494f7d2a65849f90be5b5f42a176f09be94bb341
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_cache module implements an RFC 2616 compliant HTTP content
+ caching filter, with support for the caching of content negotiated
+ responses containing the Vary header.
+ .
+ RFC 2616 compliant caching provides a mechanism to verify whether
+ stale or expired content is still fresh, and can represent a
+ significant performance boost when the origin server supports
+ conditional requests by honouring the If-None-Match HTTP request
+ header. Content is only regenerated from scratch when the content has
+ changed, and not when the cached entry expires.
+ .
+ As a filter, mod_cache can be placed in front of content originating
+ from any handler, including flat files (served from a slow disk cached
+ on a fast disk), the output of a CGI script or dynamic content
+ generator, or content proxied from another server.
+ .
+ In the default configuration, mod_cache inserts the caching filter as
+ far forward as possible within the filter stack, utilising the quick
+ handler to bypass all per request processing when returning content to
+ the client. In this mode of operation, mod_cache may be thought of as
+ a caching proxy server bolted to the front of the webserver, while
+ running within the webserver itself.
+
+Package: ze-apache24-mod-cache-disk
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 55
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-cache-disk
+Filename: pool/jammy/main/ze-apache24-mod-cache-disk_2.4.51-4_amd64.deb
+Size: 14510
+MD5sum: 6c9f5ed52b7a37677653d6f5916d4237
+SHA1: 918263f9203a8fa0a7fbfff9c683d07da891e397
+SHA256: eca28515163988925bdd4e66fc99e4d90167b0cddc93ac8614c331372de993fd
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_cache_disk module implements a disk based storage manager for
+ mod_cache.
+ .
+ The headers and bodies of cached responses are stored separately on
+ disk, in a directory structure derived from the md5 hash of the cached
+ URL.
+ .
+ Multiple content negotiated responses can be stored concurrently,
+ however the caching of partial content is not yet supported by this
+ module.
+ .
+ Atomic cache updates to both header and body files are achieved
+ without the need for locking by storing the device and inode numbers
+ of the body file within the header file. This has the side effect that
+ cache entries manually moved into the cache will be ignored.
+ .
+ The htcacheclean tool is provided to list cached URLs, remove cached
+ URLs, or to maintain the size of the disk cache within size and/or
+ inode limits. The tool can be run on demand, or can be daemonized to
+ offer continuous monitoring of directory sizes.
+
+Package: ze-apache24-mod-cache-socache
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 55
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-cache-socache
+Filename: pool/jammy/main/ze-apache24-mod-cache-socache_2.4.51-4_amd64.deb
+Size: 15072
+MD5sum: 320afc91157e4f60b1818e403a4afbf6
+SHA1: 805a9c7dfce209e92858b5739134e844ac1a9c99
+SHA256: b795dd71761e2d77c88f8e6b1c2011bebc5f786e0d6b71774b39a483319b63cc
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_cache_socache module implements a shared object cache
+ (socache) based storage manager for mod_cache.
+ .
+ The headers and bodies of cached responses are combined, and stored
+ underneath a single key in the shared object cache. A number of
+ implementations of shared object caches are available to choose from.
+ .
+ Multiple content negotiated responses can be stored concurrently,
+ however the caching of partial content is not yet supported by this
+ module.
+
+Package: ze-apache24-mod-cgi
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 47
+Depends: ze-apache24 (= 2.4.51-4)
+Conflicts: ze-apache24-mod-cgid, ze-apache24-mod-mpm-event, ze-apache24-mod-mpm-worker
+Provides: ze-apache24-cgi
+Filename: pool/jammy/main/ze-apache24-mod-cgi_2.4.51-4_amd64.deb
+Size: 11756
+MD5sum: 632c24a35228d310e4465c75c0419ae2
+SHA1: b93826ff7404ababc2f1f4c26085c1006be518a4
+SHA256: 107050bece39f6a5cd9bba85512f006dee78a481c57e20a19e07fcbfdbf85ce7
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_cgi module adds a handler for executing CGI scripts. This
+ module is meant for a forked MPM; for threaded MPMs, mod_cgid should
+ be used.
+
+Package: ze-apache24-mod-cgid
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 61
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-cgi
+Filename: pool/jammy/main/ze-apache24-mod-cgid_2.4.51-4_amd64.deb
+Size: 16978
+MD5sum: 0d636f2c9778c828bac346514ed207db
+SHA1: 80fbfaeef3259f5173767dba61fe1cc59e631cc5
+SHA256: 749565ad1a9bb7e90d1178bd89c36e04deaddae068a91ba53862f4eb0da52fa2
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_cgid module adds a handler for executing CGI scripts. This
+ module is meant for threaded MPMs; for forked MPMs, mod_cgi should be
+ used.
+
+Package: ze-apache24-mod-charset-lite
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 43
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-charset-lite
+Filename: pool/jammy/main/ze-apache24-mod-charset-lite_2.4.51-4_amd64.deb
+Size: 10174
+MD5sum: 8d9385c041d309fa32ea9040f1828c18
+SHA1: 797df1457421e4941f0b1a94c52e1f0547a1bcc7
+SHA256: ca12b3cf2ba910a165d860ecec5a80b2cfb178fc7d054eeae2cbe366c65bf7ba
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_charset_lite module allows the server to change the character
+ set of responses before sending them to the client.
+
+Package: ze-apache24-mod-data
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-data
+Filename: pool/jammy/main/ze-apache24-mod-data_2.4.51-4_amd64.deb
+Size: 4760
+MD5sum: 02ff8a83d118e6b8011a62c35755c7fe
+SHA1: da6d314f484ef5a5083207b03e3a59f3c443387c
+SHA256: b80f68589ccff0440d3cbd174567f0725435cbfb6193bac322d324e84150a1b9
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_data module provides the ability to convert a response into an
+ RFC2397 data URL.
+ .
+ Data URLs can be embedded inline within web pages using something like
+ the mod_include module, to remove the need for clients to make
+ separate connections to fetch what may potentially be many small
+ images. Data URLs may also be included into pages generated by
+ scripting languages such as PHP.
+
+Package: ze-apache24-mod-dav
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 127
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-dav
+Filename: pool/jammy/main/ze-apache24-mod-dav_2.4.51-4_amd64.deb
+Size: 43588
+MD5sum: 8792feaefdfa9e02078bc309984142b6
+SHA1: bb00d9cb6633f5b473e58d8c1f8339158d9918d8
+SHA256: 84c7297d1176387d9bc1d94430bd7d6473368da5cf9c9e2601b23b3e24448809
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_dav module provides class 1 and class 2 WebDAV ('Web-based
+ Distributed Authoring and Versioning') functionality for Apache. This
+ extension to the HTTP protocol allows creating, moving, copying, and
+ deleting resources and collections on a remote web server.
+
+Package: ze-apache24-mod-dav-fs
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 75
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-dav-fs
+Filename: pool/jammy/main/ze-apache24-mod-dav-fs_2.4.51-4_amd64.deb
+Size: 22738
+MD5sum: b2f7ea5740772501c5b8fe61a2e15eda
+SHA1: aa02b3f937d149b3e264b095b0d3b619f0436b80
+SHA256: 334c8b8a50c2131f7ab8ff0f26f19896c8f142f71b0184a2523085368200a38c
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_dav_fs module acts as a support module for mod_dav and
+ provides access to resources located in the file system.  The formal
+ name of this provider is filesystem.
+
+Package: ze-apache24-mod-dav-lock
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 35
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-dav-lock
+Filename: pool/jammy/main/ze-apache24-mod-dav-lock_2.4.51-4_amd64.deb
+Size: 8856
+MD5sum: 6a2516a56d84b3fb3aa7f4f64deffc17
+SHA1: 6f763d069b30510cf3461e65d030e2bb002df0e1
+SHA256: ce315ca4131fa718a4192a40ea285dcb6e26667666560dcd3e5492907ec6c16b
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_dav_lock module implements a generic locking API which can be
+ used by any backend provider of mod_dav.  Without a backend provider
+ which makes use of it, however, it should not be loaded into the
+ server.
+
+Package: ze-apache24-mod-dbd
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 43
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-dbd
+Filename: pool/jammy/main/ze-apache24-mod-dbd_2.4.51-4_amd64.deb
+Size: 9408
+MD5sum: b500588d266332a6cdf6cbec93384f60
+SHA1: 289015d02e8625ca3cc53546aa70108ea44aa1ef
+SHA256: cddb6610b8e38c2f8d645b1c51ed6bc00b8e725dcc629585049362ccad10c8fc
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_dbd module manages SQL database connections using APR. It
+ provides database connections on request to modules requiring SQL
+ database functions, and takes care of managing databases with optimal
+ efficiency and scalability for both threaded and non-threaded MPMs.
+
+Package: ze-apache24-mod-deflate
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 55
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-deflate
+Filename: pool/jammy/main/ze-apache24-mod-deflate_2.4.51-4_amd64.deb
+Size: 15464
+MD5sum: 48c0bef1bb9a8f2904c061846e44ad6b
+SHA1: 54501bbdd4580a7ecccba4bf793a3f0e3600c35a
+SHA256: 10d60605fa113d77e478681be29d86b4004fc19246a585b5bc5571718451dfda
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_deflate module provides the DEFLATE output filter that allows
+ output from your server to be compressed before being sent to the
+ client over the network.
+
+Package: ze-apache24-mod-dialup
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-dialup
+Filename: pool/jammy/main/ze-apache24-mod-dialup_2.4.51-4_amd64.deb
+Size: 5342
+MD5sum: f13f3d82e8d643bd41036a59c0a7c00f
+SHA1: 7f79f2b0b1e528fdab55a6402fff49b32d94f0a7
+SHA256: aa1828706abbbb143ef0929f20356dfc112702acc889abbea15db273b1788701
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: It is a module that sends static content at a bandwidth rate limit,
+ defined by the various old modem standards.
+
+Package: ze-apache24-mod-dumpio
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-dumpio
+Filename: pool/jammy/main/ze-apache24-mod-dumpio_2.4.51-4_amd64.deb
+Size: 5430
+MD5sum: f24fb17088f9c6ef6de78112b6aa980b
+SHA1: 56c863be2162990e924dae6166ba55021b3230cc
+SHA256: aa62c8b8ba983e56b1e0b1a6e0ed5c402b71528515ba6f84fec2b9ad8aa4be31
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_dumpio module allows for the logging of all input received by
+ Apache and/or all output sent by Apache to be logged (dumped) to the
+ error.log file.
+ .
+ The data logging is done right after SSL decoding (for input) and
+ right before SSL encoding (for output). As can be expected, this can
+ produce extreme volumes of data, and should only be used when
+ debugging problems.
+
+Package: ze-apache24-mod-env
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-env
+Filename: pool/jammy/main/ze-apache24-mod-env_2.4.51-4_amd64.deb
+Size: 4612
+MD5sum: f3892783f8d62bf17092eca8e4b6f31f
+SHA1: a2f5467eaed471f1564b9c4972e70f04a53b7638
+SHA256: 9fc6761c9b5c2eb811766d1eacbdf006df6dcb40eafe539ad54bc59d0dd58b19
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_env module allows for control of internal environment
+ variables that are used by various Apache HTTP Server modules. These
+ variables are also provided to CGI scripts as native system
+ environment variables, and available for use in SSI pages. Environment
+ variables may be passed from the shell which invoked the httpd
+ process. Alternatively, environment variables may be set or unset
+ within the configuration process.
+
+Package: ze-apache24-mod-expires
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-expires
+Filename: pool/jammy/main/ze-apache24-mod-expires_2.4.51-4_amd64.deb
+Size: 5992
+MD5sum: 3d9f46b41bc8fbff2f5d8c17981721c1
+SHA1: 2b8f17877d5b676807af624cfd4a95529b485900
+SHA256: 57ce1615b0649e8f4ad9840869bf715a8afe95d44862e479a399d91ea3826aea
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_expires module controls the setting of the Expires HTTP header
+ and the max-age directive of the Cache-Control HTTP header in server
+ responses. The expiration date can set to be relative to either the
+ time the source file was last modified, or to the time of the client
+ access.
+
+Package: ze-apache24-mod-ext-filter
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 43
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-ext-filter
+Filename: pool/jammy/main/ze-apache24-mod-ext-filter_2.4.51-4_amd64.deb
+Size: 10502
+MD5sum: fc5e554a7af9c4cf2855d5fddfca270d
+SHA1: 3bcb3a89baedeb325b6e863eb978fbca004f1500
+SHA256: 5dac906ec304b7906c9a7cce6dab3c40519d61c746d8f22a39a1fb725b377ca0
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_ext_filter module presents a simple and familiar programming
+ model for filters. With this module, a program which reads from stdin
+ and writes to stdout (i.e., a Unix-style filter command) can be a
+ filter for Apache.
+
+Package: ze-apache24-mod-file-cache
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-file-cache
+Filename: pool/jammy/main/ze-apache24-mod-file-cache_2.4.51-4_amd64.deb
+Size: 5968
+MD5sum: e2d9fdc59b847affa88af5fe62107253
+SHA1: 8c5a591900a32afaba25d26bd79ac453e85911f8
+SHA256: 688823ddce36d4dc59655999915dac9bbffcd2e7d176178b7af42fe6970373d1
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_file_cache module provides two techniques for caching
+ frequently requested static files. Through configuration directives,
+ you can direct mod_file_cache to either open then mmap() a file, or to
+ pre-open a file and save the open file handle. Both techniques reduce
+ server load when processing requests for these files by doing part of
+ the work (specifically, the file I/O) for serving the file when the
+ server is started rather than during each request.
+ .
+ This cannot be used for speeding up CGI programs or other files which
+ are served by special content handlers. It can only be used for
+ regular files which are usually served by the Apache core content
+ handler.
+
+Package: ze-apache24-mod-headers
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 47
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-headers
+Filename: pool/jammy/main/ze-apache24-mod-headers_2.4.51-4_amd64.deb
+Size: 9440
+MD5sum: ddc5dd29337cca350763e00fc4ae292e
+SHA1: c64354ac70eac94c69ac6c7ce4b8ce3d7f1a5d68
+SHA256: bb1ef77e30c3cf945f9ec5722c2b711922f7d7745e6c03776db9e9b24b825bac
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_headers module provides directives to control and modify HTTP
+ request and response headers. Headers can be merged, replaced or
+ removed.
+
+Package: ze-apache24-mod-heartbeat
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-heartbeat
+Filename: pool/jammy/main/ze-apache24-mod-heartbeat_2.4.51-4_amd64.deb
+Size: 4972
+MD5sum: 1ae64dea4584fc35bb7a3b8a255d2db9
+SHA1: 291386345d4d0f8cba0b213eff50fc6dce049d97
+SHA256: ff26c9d9fe52abfb1e8e76e262821aa4d77e920b8b1f2dccee7270d3ab419474
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_heartbeat module sends multicast messages to a
+ mod_heartmonitor listener that advertises the servers current
+ connection count. Usually, mod_heartmonitor will be running on a proxy
+ server with mod_lbmethod_heartbeat loaded, which allows ProxyPass to
+ use the "heartbeat" lbmethod inside of ProxyPass.
+ .
+ mod_heartbeat itself is loaded on the origin server(s) that serve
+ requests through the proxy server(s).
+
+Package: ze-apache24-mod-heartmonitor
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 47
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-heartmonitor
+Filename: pool/jammy/main/ze-apache24-mod-heartmonitor_2.4.51-4_amd64.deb
+Size: 10526
+MD5sum: 2163487970e85d4270697139db88d42a
+SHA1: efee52faaa0fefb3d916a6c01f40a3260f7259ce
+SHA256: 3dcea89b8f4a51446caa408b486a6d4e55052908635f48305c2fc4371ed0c3ae
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_heartmonitor module listens for server status messages
+ generated by mod_heartbeat enabled origin servers and makes their
+ status available to mod_lbmethod_heartbeat. This allows ProxyPass to
+ use the "heartbeat" lbmethod inside of ProxyPass.
+ .
+ This module uses the services of mod_slotmem_shm when available
+ instead of flat-file storage. No configuration is required to use
+ mod_slotmem_shm.
+
+Package: ze-apache24-mod-http2
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 258
+Depends: ze-apache24 (= 2.4.51-4)
+Conflicts: ze-apache24-mod-mpm-itk, ze-apache24-mod-mpm-prefork
+Provides: ze-apache24-mod-http2
+Filename: pool/jammy/main/ze-apache24-mod-http2_2.4.51-4_amd64.deb
+Size: 97902
+MD5sum: d608e1d386d2fa72982a67275bc9f441
+SHA1: 5468d19f4cb527b711c097b1abde48d3dbee356f
+SHA256: 89112a00c18f56d5dd4ff12aa1d1a3b173e5d51fad05ca68007b31873162155e
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: This module sets up http2
+
+Package: ze-apache24-mod-imagemap
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 35
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-imagemap
+Filename: pool/jammy/main/ze-apache24-mod-imagemap_2.4.51-4_amd64.deb
+Size: 7908
+MD5sum: 740960e839b86a150400e4d7fa4e69d7
+SHA1: 5f5a3947f0c12e78c575acadabc4e7568e9dabd7
+SHA256: 64da1b777001a6cc248c07db4b67c9deef9bf16fc8cadc294545ec42bd794837
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_imagemap module processes .map files, thereby replacing the
+ functionality of the imagemap CGI program. Any directory or document
+ type configured to use the handler imap-file (using either AddHandler
+ or SetHandler) will be processed by this module.
+
+Package: ze-apache24-mod-info
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 47
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-info
+Filename: pool/jammy/main/ze-apache24-mod-info_2.4.51-4_amd64.deb
+Size: 11076
+MD5sum: 1cc5062eaad6d607d88fc1d441835d1c
+SHA1: 240381184b479aa38792685b78a7307f0f75c876
+SHA256: ab079752fb5e3eba2d456ca7af7ecd10733b55a4af42b5413f75234c564db65d
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_info module adds a server-info handler to the apache configuration,
+ allowing a detailed description of the current server configuration state.
+ It is not appropriate for shared hosting systems.
+
+Package: ze-apache24-mod-lbmethod-bybusyness
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-lbmethod
+Filename: pool/jammy/main/ze-apache24-mod-lbmethod-bybusyness_2.4.51-4_amd64.deb
+Size: 3898
+MD5sum: c6e45d994f6fa2b97fa73489ab258779
+SHA1: 51d221005c3ac88ecc254e0af67273776fb37aed
+SHA256: e66b5206211d99d8a9142f578fc22a3b4b9abf55ffa984483a71675458c445e3
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_lbmethod_bybusyness module keeps track of how many requests
+ each worker is currently assigned at present. A new request is
+ automatically assigned to the worker with the lowest number of active
+ requests. This is useful in the case of workers that queue incoming
+ requests independently of Apache, to ensure that queue length stays
+ even and a request is always given to the worker most likely to
+ service it the fastest and reduce latency.
+
+Package: ze-apache24-mod-lbmethod-byrequests
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-lbmethod
+Filename: pool/jammy/main/ze-apache24-mod-lbmethod-byrequests_2.4.51-4_amd64.deb
+Size: 3714
+MD5sum: 338f55c33033407397cae447d62a2875
+SHA1: 25c7c5b327755422faded1f71d4c0e3221c50559
+SHA256: 7d73d31a0f4e368018793a50d9ef9bbb6ed40ec7375585f4ff43b39a89d59d45
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_lbmethod_byrequests module distributes requests among the
+ various workers to ensure that each gets their configured share of the
+ number of requests.
+
+Package: ze-apache24-mod-lbmethod-bytraffic
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-lbmethod
+Filename: pool/jammy/main/ze-apache24-mod-lbmethod-bytraffic_2.4.51-4_amd64.deb
+Size: 3830
+MD5sum: 850081eb990801da9501f24b18a2bc47
+SHA1: 275ccc9873760a37509bfb45e1f90b6d53c0b5dd
+SHA256: 6d6a22d0bd1460151d3e8894c9a8a3f286c31248c533537060215c2546e082db
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_lbmethod_bytraffic module distributes requests among the
+ various workers to ensure that each gets their configured share of the
+ number of requests.  In contrast to mod_lbmethod_byrequests, which has
+ a similar balancing logic, bytraffic weights each request by the
+ number of bytes in the request.
+
+Package: ze-apache24-mod-lbmethod-heartbeat
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 39
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-lbmethod
+Filename: pool/jammy/main/ze-apache24-mod-lbmethod-heartbeat_2.4.51-4_amd64.deb
+Size: 6802
+MD5sum: edcfe3ad4e52c615fdb1317ac8ec512c
+SHA1: 256aec6570cddfde5fb7b06d46ed13d3be92b1b9
+SHA256: 8868fc7301d14edbba6bd2b92ee176d54f44558843fdc8e17a08d68bd18e4922
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_lbmethod_heartbeat module uses the services of
+ mod_heartmonitor to balance between origin servers that are providing
+ heartbeat info via the mod_heartbeat module.
+ .
+ This load balancing algorithm favors servers with more ready (idle)
+ capacity over time, but does not select the server with the most ready
+ capacity every time. Servers that have 0 active clients are penalized,
+ with the assumption that they are not fully initialized.
+
+Package: ze-apache24-mod-ldap
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 99
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-ldap
+Filename: pool/jammy/main/ze-apache24-mod-ldap_2.4.51-4_amd64.deb
+Size: 31516
+MD5sum: f19d858f54ab2c93e09ba2086cbbe374
+SHA1: 02585a5300dcb55a8d766e8722b3e15ad9d4f766
+SHA256: 09c2310a7adb9ca18c140398be129eb4d7f91f97daba1ac86c36eaa7e386c4fd
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_ldap module was created to improve the performance of websites
+ relying on backend connections to LDAP servers. In addition to the
+ functions provided by the standard LDAP libraries, this module adds an
+ LDAP connection pool and an LDAP shared memory cache.
+
+Package: ze-apache24-mod-log-debug
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 60
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-log-debug
+Filename: pool/jammy/main/ze-apache24-mod-log-debug_2.4.51-4_amd64.deb
+Size: 18706
+MD5sum: 2d3346a134e6a36017602c9f5a34b7ce
+SHA1: fe529123588cbd83a779da4bd3efee10f6179109
+SHA256: 1a5f36181333a7962ae0ccd0c249afaa6e427a82f2e5313fd91ee6b761b11b92
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_log_debug module provides a LogMessage directive which may be
+ used to log arbitrary data.
+
+Package: ze-apache24-mod-log-forensic
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 33
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-log-forensic
+Filename: pool/jammy/main/ze-apache24-mod-log-forensic_2.4.51-4_amd64.deb
+Size: 6280
+MD5sum: 9cfbae94bc66e546028b57c7440c32c1
+SHA1: f347f33c33bcdbfaad4989947a4ebb572e8786cb
+SHA256: b11eb9b960858cbc9b7d6d806a6ccbd2ddf769299ce6bc7ea737d047422f164e
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_log_forensic module provides for forensic logging of client
+ requests. Logging is done before and after processing a request, so
+ the forensic log contains two log lines for each request. The forensic
+ logger is very strict, which means:
+ .
+   - The format is fixed. You cannot modify the logging format at
+     runtime.
+   - If it cannot write its data, the child process exits immediately
+     and may dump core (depending on your CoreDumpDirectory
+     configuration).
+ .
+ The check_forensic script may be helpful in evaluating the forensic
+ log output.
+
+Package: ze-apache24-mod-lua
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 155
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-lua
+Filename: pool/jammy/main/ze-apache24-mod-lua_2.4.51-4_amd64.deb
+Size: 48322
+MD5sum: f79b8285f3e15182be70e0b1a902158b
+SHA1: 2b403c22491e21c9dea5b541ee29396af01d831d
+SHA256: f9d2c3a5bfb30492d889f5d11359f3cf4ae092dc0d34fdaaa76dc87cb49fba45
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_lua module allows the server to be extended with scripts
+             written in the Lua programming language. The extension points (hooks)
+             available with mod_lua include many of the hooks available to natively
+             compiled Apache HTTP Server modules, such as mapping requests to
+             files, generating dynamic responses, access control, authentication,
+             and authorization
+
+Package: ze-apache24-mod-macro
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 39
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-macro
+Filename: pool/jammy/main/ze-apache24-mod-macro_2.4.51-4_amd64.deb
+Size: 8602
+MD5sum: 83b3983b9775300cfefc5fc07756d05f
+SHA1: 8dff10a018c157b21d238141b8a52a550a183ca8
+SHA256: 66b3db90061d6726aa07d0878efcfb6b7f74dcfb95d7b7524dfa3ac8ec698085
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_macro module provides macros within Apache httpd runtime
+ configuration files, to ease the process of creating numerous similar
+ configuration blocks. When the server starts up, the macros are
+ expanded using the provided parameters, and the result is processed as
+ along with the rest of the configuration file.
+
+Package: ze-apache24-mod-mime-magic
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 47
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-mime-magic
+Filename: pool/jammy/main/ze-apache24-mod-mime-magic_2.4.51-4_amd64.deb
+Size: 12616
+MD5sum: 3d4accf549975a054f891c398222d2b8
+SHA1: 381645ac1b95357e6b576126bb1396c5ec1a1da6
+SHA256: fc4ee70bef6ee12bdd30365ce6eb4d2e3eb6bef1f00eca44cf270f4023535233
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_mime_magic module determines the MIME type of files in the
+ same way the Unix file(1) command works: it looks at the first few
+ bytes of the file. It is intended as a "second line of defense" for
+ cases that mod_mime cannot resolve.
+
+Package: ze-apache24-mod-mpm-event
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 87
+Depends: ze-apache24 (= 2.4.51-4), ze-apache24-mod-cgid
+Conflicts: ze-apache24-mod-cgi, ze-apache24-mod-mpm-prefork, ze-apache24-mod-mpm-worker
+Filename: pool/jammy/main/ze-apache24-mod-mpm-event_2.4.51-4_amd64.deb
+Size: 29182
+MD5sum: 8733a989dcc8b3241313dc4d8d370096
+SHA1: 76732753965a079dcf01b6674ee96199f9b1edb2
+SHA256: 46be1be250360d94583c7b7633911d552d9a9709224a15f243006131960a8dc7
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The Event MPM provides a threaded model for workers, with the additional
+ feature that all keepalive connections are handled by a single thread.
+
+Package: ze-apache24-mod-mpm-prefork
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 55
+Depends: ze-apache24 (= 2.4.51-4), ze-apache24-mod-cgi
+Conflicts: ze-apache24-mod-cgid, ze-apache24-mod-http2, ze-apache24-mod-mpm-event, ze-apache24-mod-mpm-worker
+Filename: pool/jammy/main/ze-apache24-mod-mpm-prefork_2.4.51-4_amd64.deb
+Size: 13556
+MD5sum: a982f95085417d432a0c822cb86fbbc9
+SHA1: 9ad503a0726f9bc93c65650c7db9f21e59bf1d51
+SHA256: fec01737f9ebd7e0e67b7fdee0f28c295a86b32cd76ab74cd14c99438d67f149
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The traditional forked worker model.
+
+Package: ze-apache24-mod-mpm-worker
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 67
+Depends: ze-apache24 (= 2.4.51-4), ze-apache24-mod-cgi
+Conflicts: ze-apache24-mod-cgi, ze-apache24-mod-mpm-event, ze-apache24-mod-mpm-prefork
+Filename: pool/jammy/main/ze-apache24-mod-mpm-worker_2.4.51-4_amd64.deb
+Size: 19208
+MD5sum: a6a149b2f71da90ca0ddf2c1babed898
+SHA1: 7941efc368c2f28fd57e8d4bb314b12934bcde84
+SHA256: c3bd276172d1c846e6db1cd0546135ab87a0fbe60a29fcd76418120e9d90ad21
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The Worker MPM provides a threaded worker model.
+
+Package: ze-apache24-mod-proxy
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 167
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy
+Filename: pool/jammy/main/ze-apache24-mod-proxy_2.4.51-4_amd64.deb
+Size: 62972
+MD5sum: d6024612273ca849333df8d9a89d9c55
+SHA1: b93caa80551dd2ecef6d5dff19c241e86329e7b1
+SHA256: 40be739a2b05191f629b56cfabdc9295894ea4f800106b430dbf8dde662e74de
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy module implements a proxy/gateway for Apache HTTP
+ Server, supporting a number of popular protocols as well as several
+ different load balancing algorithms. Third-party modules can add
+ support for additional protocols and load balancing algorithms.
+
+Package: ze-apache24-mod-proxy-ajp
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 71
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-ajp
+Filename: pool/jammy/main/ze-apache24-mod-proxy-ajp_2.4.51-4_amd64.deb
+Size: 22706
+MD5sum: 19d98f63a022a7153f5793183146038f
+SHA1: 718561a046d26b6ae0860a976ef01b27bb403435
+SHA256: aa3eb75e7044fb27fa9281aa6463b94eaaf8070fc34b9338f34ad86d06d5e9ce
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_ajp module provides proxy support for the Apache JServ
+ Protocol version 1.3.
+
+Package: ze-apache24-mod-proxy-balancer
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 79
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-balancer
+Filename: pool/jammy/main/ze-apache24-mod-proxy-balancer_2.4.51-4_amd64.deb
+Size: 22942
+MD5sum: da7753f19963986ec7c9a4c6a73a3d3b
+SHA1: 5a3c37891f78e589d886c759f819b38a960a3182
+SHA256: 1c795d5a2706310ae082406643c8c6282ef9442bd1f8003fcf878a175904b1cc
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_balancer module provides load balancing support for
+ HTTP, FTP and AJP13 protocols.  Load balancing scheduler algorithms
+ are not provided by this module but by the mod_lbmethod_* modules.
+
+Package: ze-apache24-mod-proxy-connect
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 35
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-connect
+Filename: pool/jammy/main/ze-apache24-mod-proxy-connect_2.4.51-4_amd64.deb
+Size: 7074
+MD5sum: 82d6e334c54720fef8a35e30b1355f05
+SHA1: 44f9cdc671c6787fb6da3f6a0c3b8b87388e8b36
+SHA256: 05af1c65d6e27fcd25e5d9e0d04a2fe0c401f2e571834477d2ef41a9b27955d3
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_connect module provides support for the CONNECT HTTP
+ method. This method is mainly used to tunnel SSL requests through
+ proxy servers.
+
+Package: ze-apache24-mod-proxy-express
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-express
+Filename: pool/jammy/main/ze-apache24-mod-proxy-express_2.4.51-4_amd64.deb
+Size: 5650
+MD5sum: 64160d80dd1db60c6c90bb8fe2ce910b
+SHA1: 3a97ef560fe012cefa77a1b26829538303708f92
+SHA256: 5d3f4070a203953e2e354c871a9a703d4a7da38ab1a4efc624a0334111ea626e
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_express module creates dynamically configured mass
+ reverse proxies, by mapping the Host: header of the HTTP request to a
+ server name and backend URL stored in a DBM file. This allows for easy
+ use of a huge number of reverse proxies with no configuration
+ changes. It is much less feature-full than mod_proxy_balancer, which
+ also provides dynamic growth, but is intended to handle much, much
+ larger numbers of backends. It is ideally suited as a front-end HTTP
+ switch.
+
+Package: ze-apache24-mod-proxy-fcgi
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 67
+Depends: ze-apache24 (= 2.4.51-4), libc6 (>= 2.34), ze-apr
+Provides: ze-apache24-mod-proxy-fcgi
+Filename: pool/jammy/main/ze-apache24-mod-proxy-fcgi_2.4.51-4_amd64.deb
+Size: 16064
+MD5sum: 2f4ca91eabdd224ff6045b327b19197c
+SHA1: c3c1b73edd7447f507df64ea01f345db39c710b4
+SHA256: 4dda75f46b03926e8257a2e0819ae895bb3ad7ec79bf7064c52c5e15c2c5a849
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_fcgi module provides support for the FastCGI
+ protocol. Unlike mod_fcgid and mod_fastcgi, mod_proxy_fcgi has no
+ provision for starting the application process; fcgistarter is
+ provided (on some platforms) for that purpose. Alternatively, external
+ launching or process management may be available in the FastCGI
+ application framework in use.
+
+Package: ze-apache24-mod-proxy-fdpass
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-fdpass
+Filename: pool/jammy/main/ze-apache24-mod-proxy-fdpass_2.4.51-4_amd64.deb
+Size: 5124
+MD5sum: 922b059c0450f514b251bad382eb3d99
+SHA1: c1862b51684e72d3f531a2e54e07764883c30985
+SHA256: 9a88bef07fc6f068e1226186fee386c1e08d87f886c039fc3a474301c3841ea0
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_fdpass module provides support for the passing the
+ socket of the client to another process.
+ .
+ mod_proxy_fdpass uses the ability of AF_UNIX domain sockets to pass an
+ open file descriptor to allow another process to finish handling a
+ request.
+ .
+ The module has a proxy_fdpass_flusher provider interface, which allows
+ another module to optionally send the response headers, or even the
+ start of the response body. The default flush provider disables
+ keep-alive, and sends the response headers, letting the external
+ process just send a response body.
+ .
+ At this time the only data passed to the external process is the
+ client socket. To receive a client socket, call recvfrom with an
+ allocated struct cmsghdr. Future versions of this module may include
+ more data after the client socket, but this is not implemented at this
+ time.
+
+Package: ze-apache24-mod-proxy-ftp
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 63
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-ftp
+Filename: pool/jammy/main/ze-apache24-mod-proxy-ftp_2.4.51-4_amd64.deb
+Size: 19494
+MD5sum: 644f682eb1d2f764877474a1e2b6ee2e
+SHA1: 31f501af466c10094c222521bcb4197307667c4e
+SHA256: f38697187d5c43c58492b97894ed6af4fc8d33879e7aa69d5e6a3534a22eb26f
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_ftp module provides support for the proxying FTP
+ sites. Note that FTP support is currently limited to the GET method.
+
+Package: ze-apache24-mod-proxy-hcheck
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 55
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-hcheck
+Filename: pool/jammy/main/ze-apache24-mod-proxy-hcheck_2.4.51-4_amd64.deb
+Size: 15490
+MD5sum: 6aa424cb1a422a1e47b17fa4bedd4c2b
+SHA1: 410fef4d9e3a7f17b415352ed0067234b243f471
+SHA256: f3efb6a6f91aa460d9ebec6a70fff4ed96be6f45b041c12452f1d7f8fd884419
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_hcheck module provides support for dynamic health checking of
+ balancer members (workers).  This can be enabled on a worker-by-worker basis.
+ The health check is done independently of the actual revers proxy requests.
+
+Package: ze-apache24-mod-proxy-html
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 83
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-html
+Filename: pool/jammy/main/ze-apache24-mod-proxy-html_2.4.51-4_amd64.deb
+Size: 22610
+MD5sum: c7991f8566e56cae21d0e55761aff473
+SHA1: b8ecae8110654ba7a0aafe5535978cf5653cbd7f
+SHA256: b150c3ed76270d73cfa89cf899fdaf605697e1cb5174f1ecd4e72235ca7168f4
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_html and mod_xml2enc modules provide filters which can
+ transform and modify HTML and XML content.
+
+Package: ze-apache24-mod-proxy-http
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 63
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-http
+Filename: pool/jammy/main/ze-apache24-mod-proxy-http_2.4.51-4_amd64.deb
+Size: 17670
+MD5sum: 3514819cff4395fdc3f9f4ba79e95e75
+SHA1: da0858a1b9d69ba0f841d799627bfa8bb9a583ee
+SHA256: 948b27f3e4948ac010d77339b3509314f033d0d27f7b188ad58ca8cbd9fcc183
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_http module provides the features used for proxying HTTP
+ and HTTPS requests. mod_proxy_http supports HTTP/0.9, HTTP/1.0 and
+ HTTP/1.1. It does not provide any caching abilities. If you want to
+ set up a caching proxy, you might want to use the additional service
+ of the mod_cache module.
+
+Package: ze-apache24-mod-proxy-scgi
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 39
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-scgi
+Filename: pool/jammy/main/ze-apache24-mod-proxy-scgi_2.4.51-4_amd64.deb
+Size: 8376
+MD5sum: ae0a84ffe50d86840ba3cb9472e38388
+SHA1: 0479e5dc0408ba2359de62b53df3adcf52140e9f
+SHA256: c0a38abc3404b54e36e64c05291524bc49766021243d1b878a3dbc7cc0dc3009
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_scgi module provides support for the SCGI protocol,
+ version 1.
+
+Package: ze-apache24-mod-proxy-uwsgi
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 39
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-uwsgi
+Filename: pool/jammy/main/ze-apache24-mod-proxy-uwsgi_2.4.51-4_amd64.deb
+Size: 7670
+MD5sum: a7f532dece3f05d8ad5533dd473c65b8
+SHA1: f2f2737ed2316856da66cdb62fbdbf34f275f8c1
+SHA256: a77c4497636203b91f51e385de6ca00762b1f51b433b86c3f8f409a9f19054c4
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The uWSGI project provides application servers (for various programming languages and protocols
+ like perl (PSGI), python (WSGI), ruby (Rack), Lua WSAPI, CGI, PHP, and Go ... to name a few),
+ proxies, process managers and monitors.
+ All implemented using a common api and a common configuration style.
+
+Package: ze-apache24-mod-proxy-wstunnel
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 43
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-proxy-wstunnel
+Filename: pool/jammy/main/ze-apache24-mod-proxy-wstunnel_2.4.51-4_amd64.deb
+Size: 8762
+MD5sum: 48ba210fe4a4fcbf3517cf3aac139366
+SHA1: fcfca17ac15429c39b0bbe716cf09e57010c7e7e
+SHA256: 0cf95f8310d3a3b50933850b3ffa6323ea7bcd2541a6a46d77eb5a9e11b54af0
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_proxy_wstunnel module provides support for the tunnelling of
+ web socket connections to a backend websockets server. The connection
+ is automagically upgraded to a websocket connection.
+
+Package: ze-apache24-mod-ratelimit
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-ratelimit
+Filename: pool/jammy/main/ze-apache24-mod-ratelimit_2.4.51-4_amd64.deb
+Size: 5856
+MD5sum: 66b48b1ec5a6dfc0a16ad8fa4dd17a94
+SHA1: 5ad0d12efae1892bbe79c9115b67454252797e10
+SHA256: 31f5e55627fb60397c45de764bb841bc4c06d46a806789f64b2437b553f0b7f8
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_ratelimit module provides a filter named RATE_LIMIT to limit
+ client bandwidth. The connection speed to be simulated is specified,
+ in KiB/s, using the environment variable rate-limit.
+
+Package: ze-apache24-mod-reflector
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-reflector
+Filename: pool/jammy/main/ze-apache24-mod-reflector_2.4.51-4_amd64.deb
+Size: 5202
+MD5sum: 6652a13abd894a14958c98adf2ad2051
+SHA1: 1c78815ab8cb57fa1a44b962262467c1afb1e43f
+SHA256: e6c6a708b950e7b7565a757c9c36dff760d33f38d79ee6858f0f9435227e6d73
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_reflector module allows request bodies to be reflected back to
+ the client, in the process passing the request through the output
+ filter stack. A suitably configured chain of filters can be used to
+ transform the request into a response. This module can be used to turn
+ an output filter into an HTTP service.
+
+Package: ze-apache24-mod-remoteip
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 47
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-remoteip
+Filename: pool/jammy/main/ze-apache24-mod-remoteip_2.4.51-4_amd64.deb
+Size: 11844
+MD5sum: 5bdbf4049df00a02eef7fdc92edf574e
+SHA1: 26a89d47d8783636ea78c257443c71ab97e8f4c7
+SHA256: ff8e509d64c2792a35dd58402417ab573dab017b80ba0a3b20ec386beb458581
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_remoteip module is used to treat the useragent which initiated
+ the request as the originating useragent as identified by httpd for
+ the purposes of authorization and logging, even where that useragent
+ is behind a load balancer, front end server, or proxy server.
+ .
+ The module overrides the client IP address for the connection with the
+ useragent IP address reported in the request header configured with
+ the RemoteIPHeader directive.
+ .
+ Once replaced as instructed, this overridden useragent IP address is
+ then used for the mod_authz_host Require ip feature, is reported by
+ mod_status, and is recorded by mod_log_config %a and core %a format
+ strings. The underlying client IP of the connection is available in
+ the %{c}a format string.
+
+Package: ze-apache24-mod-reqtimeout
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 35
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-reqtimeout
+Filename: pool/jammy/main/ze-apache24-mod-reqtimeout_2.4.51-4_amd64.deb
+Size: 7080
+MD5sum: c427377690974d852110b25df8a2f955
+SHA1: 1b79edb0a8f8eb76732e9b16d064f60cd920c044
+SHA256: d7975f333380c0e4660945540586488282861eb3bc676cb23159854ee670bf11
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_reqtimeout module can set various timeouts for receiving the
+ request headers and the request body from the client. If the client
+ fails to send headers or body within the configured time, a 408
+ REQUEST TIME OUT error is sent.
+
+Package: ze-apache24-mod-request
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-request
+Filename: pool/jammy/main/ze-apache24-mod-request_2.4.51-4_amd64.deb
+Size: 5750
+MD5sum: 53abce80971b4b43c9fc5182caf9e256
+SHA1: 5c76717776fdb8ebdb7513b1378a23da3e52e676
+SHA256: 4563c9daedead6a8fda5b0aed48324f953aff2556933551667a7fbd01f0b4614
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_request module makes request bodies available to applications,
+ where they may normally be discarded, i.e. during GET requests.
+
+Package: ze-apache24-mod-sed
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 59
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-sed
+Filename: pool/jammy/main/ze-apache24-mod-sed_2.4.51-4_amd64.deb
+Size: 17474
+MD5sum: e4882e93b44f2b7dc1dfc79a40789ca5
+SHA1: 205519163e3e53213c5ae23851db8be4f4fe4be5
+SHA256: 02e0acb023fd53ca7e8d0c97f9d7a93c1a02b5a712140fef6c2f34355842ae55
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_sed module is an in-process content filter. The mod_sed filter
+ implements the sed editing commands implemented by the Solaris 10 sed
+ program as described in the manual page. However, unlike sed, mod_sed
+ does not take data from standard input. Instead, the filter acts on
+ the entity data sent between client and server. mod_sed can be used as
+ an input or output filter. mod_sed is a content filter, which means
+ that it cannot be used to modify client or server http headers.
+ .
+ The mod_sed output filter accepts a chunk of data, executes the sed
+ scripts on the data, and generates the output which is passed to the
+ next filter in the chain.
+ .
+ The mod_sed input filter reads the data from the next filter in the
+ chain, executes the sed scripts, and returns the generated data to the
+ caller filter in the filter chain.
+ .
+ Both the input and output filters only process the data if newline
+ characters are seen in the content. At the end of the data, the rest
+ of the data is treated as the last line.
+
+Package: ze-apache24-mod-session
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 151
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-session
+Filename: pool/jammy/main/ze-apache24-mod-session_2.4.51-4_amd64.deb
+Size: 30214
+MD5sum: ba749554b8ea29c629b0da95ed1171f7
+SHA1: b59a15fd402493bf9cac939616b111606d91a3a6
+SHA256: 1a1e06cbb232188704a10507d41d517f7f8f3f16a031409f73f672fc38c834bd
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_session module and associated backends provide an abstract
+ interface for storing and accessing per-user session data.
+
+Package: ze-apache24-mod-slotmem-plain
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-slotmem-plain
+Filename: pool/jammy/main/ze-apache24-mod-slotmem-plain_2.4.51-4_amd64.deb
+Size: 4440
+MD5sum: ecf0386d7a41cd77d7d3021731bb26c2
+SHA1: a57c3d7b838c524f131411c3e7a62da50b1fe23c
+SHA256: 494dd529ee758c3e5cac38ff8a3e575a2e047265b0e8b059d9d159d063945225
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_slotmem_plain module provides for creation and access to a
+ plain memory segment in which the datasets are organized in "slots."
+
+Package: ze-apache24-mod-socache-memcache
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 35
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-socache-memcache
+Filename: pool/jammy/main/ze-apache24-mod-socache-memcache_2.4.51-4_amd64.deb
+Size: 6744
+MD5sum: 754046c2158d51c9beb5d89b2db705b7
+SHA1: 4982a59fdf1da4679ea0ed517f675eb4e49c5e99
+SHA256: 945587db8c9b69966f9aba62f2c95671178c9685625a4774d05049a858284a09
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_socache_memcache module is a shared object cache provider
+ which provides for creation and access to a cache backed by the
+ memcached high-performance, distributed memory object caching system.
+
+Package: ze-apache24-mod-socache-redis
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 35
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-socache-redis
+Filename: pool/jammy/main/ze-apache24-mod-socache-redis_2.4.51-4_amd64.deb
+Size: 7022
+MD5sum: 35c2a0d8c61f6ee43afa6d07a9733351
+SHA1: 193635d63469a9f14b893ad3ebe328bc2278c5ba
+SHA256: a0e36c68f92ea0f69f4fdda29820e989e17afb4672d3caa4f94e0316d298a335
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: mod_socache_redis is a shared object cache provider which provides for creation
+ and access to a cache backed by the Redis high-performance, distributed memory object caching system.
+
+Package: ze-apache24-mod-speling
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 35
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-speling
+Filename: pool/jammy/main/ze-apache24-mod-speling_2.4.51-4_amd64.deb
+Size: 6646
+MD5sum: bed883c6e5dd6d8a6b0717b2703248b0
+SHA1: 77392a57e4fc77cce96804723efef911748810a3
+SHA256: b8006c4251225abc4fe555f7482c1c2cc2848c1c6fac022ef87bf9741f3d0647
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_speling module addresses the problem that requests to
+ documents sometimes cannot be served by the core apache server because
+ the request was misspelled or miscapitalized.  mod_speling tries to
+ find a matching document, even after all other modules gave up. It
+ does its work by comparing each document name in the requested
+ directory against the requested document name without regard to case,
+ and allowing up to one misspelling (character insertion / omission /
+ transposition or wrong character). A list is built with all document
+ names which were matched using this strategy.
+
+Package: ze-apache24-mod-ssl
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 267
+Provides: ze-apache24-mod-ssl
+Filename: pool/jammy/main/ze-apache24-mod-ssl_2.4.51-4_amd64.deb
+Size: 95510
+MD5sum: f7e42b2258271d34abe914b961bdde36
+SHA1: cb67daac06bc66a1358153a7b7987376eb108207
+SHA256: 7dc4ee1efd492cf05ca0685f3c3c8c60c3a92364c17637ffc7bf151b128edeeb
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_ssl module provides strong cryptography for the Apache Web
+ server via the Secure Sockets Layer (SSL) and Transport Layer
+ Security (TLS) protocols.
+
+Package: ze-apache24-mod-substitute
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 43
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-substitute
+Filename: pool/jammy/main/ze-apache24-mod-substitute_2.4.51-4_amd64.deb
+Size: 8550
+MD5sum: 38a330e96d9003d0bfc948d70eadead4
+SHA1: e26f4e74fc94b7f8cb7c61faff54f5752b7446de
+SHA256: 4d7d213e572dafa6cc726c27352f2cf13e2a97d6ea202478e5c31acd1a000bd4
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_substitute module provides a mechanism to perform both regular
+ expression and fixed string substitutions on response bodies.
+
+Package: ze-apache24-mod-suexec
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-exec-code-asuser
+Filename: pool/jammy/main/ze-apache24-mod-suexec_2.4.51-4_amd64.deb
+Size: 4058
+MD5sum: d6cd508d74940d8953ba716509cc161c
+SHA1: 31034349e5d04fd8160ae1c1513ccbed5dd4d3b2
+SHA256: 7d183d515777a7ed2336e227d25cd144867bf602324afaafde4612f58be7bbc5
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_suexec module allows CGI scripts to run as a specified user
+ and group.  The suexec support program is contained within the
+ ze-apache24 package.
+
+Package: ze-apache24-mod-unique-id
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-unique-id
+Filename: pool/jammy/main/ze-apache24-mod-unique-id_2.4.51-4_amd64.deb
+Size: 4466
+MD5sum: e9844c1fb632fca2612da5e51e34e8cc
+SHA1: 71f22b3677ca7cad5dcdb61a7a104330fbca04d5
+SHA256: 4a5f8fa3307662afcfe94c378658a294b9c8cf807eedc1cfd022038895224192
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_unique_id module provides a magic token for each request which
+ is guaranteed to be unique across all requests under very specific
+ conditions. The unique identifier is even unique across multiple
+ machines in a properly configured cluster of machines. The environment
+ variable UNIQUE_ID is set to the identifier for each request.
+
+Package: ze-apache24-mod-usertrack
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-usertrack
+Filename: pool/jammy/main/ze-apache24-mod-usertrack_2.4.51-4_amd64.deb
+Size: 6614
+MD5sum: b4c6a2f47f35999e9c5414ef277b43c9
+SHA1: bb8d25741949f3150f7214ba697fa69cdbf80ed5
+SHA256: f3e0487d9a76b6a92bf1f91c68535d8eeed1d34bdbc72fe2518640b00863217a
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_usertrack module provides tracking of a users through websites
+ via browser cookies.
+
+Package: ze-apache24-mod-version
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-version
+Filename: pool/jammy/main/ze-apache24-mod-version_2.4.51-4_amd64.deb
+Size: 4890
+MD5sum: 2762ffa59539f3c7bcaa75f74ecea674
+SHA1: 9cb90d3578b388877e6af542159820a321da1783
+SHA256: 7fcb446a93526d3b5e8f57fe0d9a489db45da392c5313a659058f5c3a846a6de
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_version module is designed for the use in test suites and
+ large networks which have to deal with different httpd versions and
+ different configurations. It provides a new container -- <IfVersion>,
+ which allows a flexible version checking including numeric comparisons
+ and regular expressions.
+
+Package: ze-apache24-mod-vhost-alias
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 31
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-vhost-alias
+Filename: pool/jammy/main/ze-apache24-mod-vhost-alias_2.4.51-4_amd64.deb
+Size: 5928
+MD5sum: 4a39fcd18501f782c8765e190526ed8f
+SHA1: 7937cc20de840959881e4e6e3a3d9a310ccd3bcf
+SHA256: f36948e7ee75169729e9ac6b18d2a2c865e3d8f47ccaeed5578609535efa19bb
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_vhost_alias module creates dynamically configured virtual
+ hosts, by allowing the IP address and/or the Host: header of the HTTP
+ request to be used as part of the pathname to determine what files to
+ serve. This allows for easy use of a huge number of virtual hosts with
+ similar configurations.
+
+Package: ze-apache24-mod-watchdog
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 47
+Depends: ze-apache24 (= 2.4.51-4)
+Provides: ze-apache24-mod-watchdog
+Filename: pool/jammy/main/ze-apache24-mod-watchdog_2.4.51-4_amd64.deb
+Size: 9144
+MD5sum: 33f1d79999298fb0c00fdbc85dde6eed
+SHA1: e0584cc674159dc87473dd7ff90d6b5f82e8b5be
+SHA256: 923fac77d38ef2eb8aacaaa91b4ee23dfbe65f9b4cab001435575a46e836dd1b
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The mod_watchdog module defines programmatic hooks for other modules
+ to periodically run tasks. These modules can register handlers for
+ mod_watchdog hooks.
+
+Package: ze-apache24-tools
+Source: ze-apache24
+Version: 2.4.51-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 184
+Provides: ze-apache24-tools
+Filename: pool/jammy/main/ze-apache24-tools_2.4.51-4_amd64.deb
+Size: 52296
+MD5sum: e5e3fc92deebd069a4fba6530945b541
+SHA1: a3c32f7ba1dc2a26f8e2a965b1edd31117158ddc
+SHA256: 38a3f4f4f5dacf272c0acb72bb90c94f1cacaf8313d9b1c15c3ba3647499018a
+Section: extra
+Priority: Priority
+Homepage: https://httpd.apache.org/
+Description: The ze-apache24-tools package contains tools which can be used with
+ the Apache HTTP Server.
+
+Package: ze-apr
+Version: 1.7.0-6
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 256
+Depends: libc6 (>= 2.34)
+Filename: pool/jammy/main/ze-apr_1.7.0-6_amd64.deb
+Size: 100472
+MD5sum: a1434287179309003fc2c075f073737d
+SHA1: 4383d2d6e7fe9fef9145e416c2a8a8c52d614b82
+SHA256: 967929f4ddfc335d1dbd440838dd58f6b0f3b3d22b13c826bd2c9dc4a0b57dce
+Section: extra
+Priority: Priority
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+
+Package: ze-apr-dev
+Source: ze-apr
+Version: 1.7.0-6
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 935
+Depends: ze-apr (= 1.7.0-6)
+Conflicts: libapr0-dev, libapr1, libapr1.0-dev
+Filename: pool/jammy/main/ze-apr-dev_1.7.0-6_amd64.deb
+Size: 171766
+MD5sum: c4263d1c4b2dd81de5f28b99818fc831
+SHA1: b943ae37d4af865421cd0aef8d533792e2f663e3
+SHA256: c51f34344b812dd29281898dcd781a037466800eb6a38a9c3d4bcfcd92df137e
+Section: extra
+Priority: Priority
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Library - Development Headers
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ 	.
+ 	This package contains development headers for APR.
+
+Package: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 199
+Depends: libc6 (>= 2.25), libcrypt1 (>= 1:4.1.0), libdb5.3, libexpat1 (>= 2.0.1), ze-apr
+Breaks: libapr1 (<< 1.4.8-2~)
+Filename: pool/jammy/main/ze-apr-util_1.6.1-5_amd64.deb
+Size: 78184
+MD5sum: dc475b3f33a761447e55e3dc3300204a
+SHA1: 6618bfc12e0c713faa05cbc8369a2c75b8fc8355
+SHA256: 556706f7b8f473c74e721a4b17646bda5b6c8ebc660f5dc209f0cc587e04ff67
+Section: extra
+Priority: Priority
+Multi-Arch: same
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+
+Package: ze-apr-util-dev
+Source: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 348
+Depends: ze-apr-util (= 1.6.1-5), libldap2-dev, libexpat1-dev, ze-apr-dev
+Filename: pool/jammy/main/ze-apr-util-dev_1.6.1-5_amd64.deb
+Size: 58462
+MD5sum: ba94c2e85cf1fd5021238fda8373de23
+SHA1: e64ff512bd8d25f556ae759433bdd94fdb343347
+SHA256: 79a1bf97d6c3247b0a92d352e2bf2cd6bdc8cb170818a46a990445f48e1d530a
+Section: extra
+Priority: Priority
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library - Development Headers
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains development headers for APR util.
+
+Package: ze-apr-util-ldap
+Source: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 29
+Depends: ze-apr-util (= 1.6.1-5), libc6 (>= 2.4), libldap-2.5-0 (>= 2.5.4)
+Filename: pool/jammy/main/ze-apr-util-ldap_1.6.1-5_amd64.deb
+Size: 5488
+MD5sum: 8009b79e5af1562c5f568e005d92d455
+SHA1: 32561b90f883792b87ba4c08a12c049e4988bda5
+SHA256: 7d95086aeb52e25985a5c66cf93b7455ac8a5b350c98b2870fe05c11f15092bf
+Section: extra
+Priority: Priority
+Multi-Arch: same
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library - LDAP Driver
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains the LDAP driver.
+
+Package: ze-apr-util-mysql
+Source: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 41
+Depends: ze-apr-util (= 1.6.1-5), libc6 (>= 2.4), libmysqlclient21 (>= 8.0.11)
+Filename: pool/jammy/main/ze-apr-util-mysql_1.6.1-5_amd64.deb
+Size: 9836
+MD5sum: 3d5ac66449c5f18aec2a5786c5b7ef6a
+SHA1: c350f23259030b3664e25203483b68ced3062a39
+SHA256: de65df20b6b544989d9b80f786df74534d42686b32bb162c11fabee969b08239
+Section: extra
+Priority: Priority
+Multi-Arch: same
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library - MySQL Driver
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains the MySQL / mariadb database driver.
+
+Package: ze-apr-util-odbc
+Source: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 49
+Depends: ze-apr-util (= 1.6.1-5), libc6 (>= 2.14), libodbc2 (>= 2.3.1)
+Filename: pool/jammy/main/ze-apr-util-odbc_1.6.1-5_amd64.deb
+Size: 13702
+MD5sum: 3e92523cd67454ca96a277a432967ef3
+SHA1: f8ecb6170237cdbce63d5d43253c302e6cdf6100
+SHA256: dab728988d1fad4359ee776c9204f716b02a866d44104b504dbb66468992fb7d
+Section: extra
+Priority: Priority
+Multi-Arch: same
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library - ODBC Driver
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains the ODBC database driver.
+
+Package: ze-apr-util-openssl
+Source: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 37
+Depends: ze-apr-util (= 1.6.1-5), libc6 (>= 2.14), libssl3 (>= 3.0.0~~alpha1)
+Filename: pool/jammy/main/ze-apr-util-openssl_1.6.1-5_amd64.deb
+Size: 6504
+MD5sum: 54cf1fcc490c5ff741ef14318ea999f9
+SHA1: a4a311eb1b896ed2cd65674f5696f2ec4571f7fd
+SHA256: 53d42069d0fa7512daac81385cf83b041a5573421009168dd754ba2b215f2d26
+Section: extra
+Priority: Priority
+Multi-Arch: same
+Homepage: https://apr.apache.org/
+Description: This package provides the OpenSSL crypto support for the apr-util.
+
+Package: ze-apr-util-pgsql
+Source: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 41
+Depends: ze-apr-util (= 1.6.1-5), libc6 (>= 2.14), libpq5
+Filename: pool/jammy/main/ze-apr-util-pgsql_1.6.1-5_amd64.deb
+Size: 9366
+MD5sum: 8da6816a212122fe2b05f07cb65452c8
+SHA1: 3adaa04f43617a4adba1e637eaacc64f35eb0fa0
+SHA256: c6c8428062ce5e48bc0b4d1d09f7bb5f9454c56d7221c4f24c56b89d3a91623f
+Section: extra
+Priority: Priority
+Multi-Arch: same
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library - PostgreSQL Driver
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains the PostgreSQL database driver.
+
+Package: ze-apr-util-sqlite3
+Source: ze-apr-util
+Version: 1.6.1-5
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 37
+Depends: ze-apr-util (= 1.6.1-5), libc6 (>= 2.4), libsqlite3-0 (>= 3.5.9)
+Filename: pool/jammy/main/ze-apr-util-sqlite3_1.6.1-5_amd64.deb
+Size: 7520
+MD5sum: de0dc7a85b32c0c067aefc1fa437d812
+SHA1: beb5b1ca44aeab60938f7fdb560602b56c975657
+SHA256: 9efd7bd270d33d7f1c43bba590b3d984700d1ff3b50fae967a2c546f40f66d1a
+Section: extra
+Priority: Priority
+Multi-Arch: same
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library - SQLite3 Driver
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains the SQLite3 database driver.
+
+Package: ze-documentroot
+Version: 1-3
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 30
+Filename: pool/jammy/main/ze-documentroot_1-3_amd64.deb
+Size: 5144
+MD5sum: 58bdc1f75091e5eb8d93940001f001f4
+SHA1: 5a67ab7ef5760fcf2759818f63071e4546db71cb
+SHA256: 4e4bc998fd2b03368450ea9327fe374cfda80bc82200b1c3e84af26339c89e07
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: <insert the upstream URL, if relevant>
+Description: auto-generated package by debmake
+ This Debian binary package was auto-generated by the
+ debmake(1) command provided by the debmake package.
+
