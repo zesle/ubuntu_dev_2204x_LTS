@@ -359,6 +359,23 @@ Description: The mod_buffer module provides the ability to buffer the input and
  and release resources sooner, depending on how the backend is
  designed.
 
+Package: ze-apache24-mod-bwlimited
+Version: 1.4-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 36
+Depends: ze-apache24 (>= 2.4.46), ze-apache24-mod-mpm-event | ze-apache24-mod-mpm-worker | ze-apache24-mod-mpm-prefork, libc6 (>= 2.4)
+Filename: pool/jammy/main/ze-apache24-mod-bwlimited_1.4-2_amd64.deb
+Size: 4656
+MD5sum: 6ec4beea098cd928d0fb99c171add997
+SHA1: bcebaffc9d8f2084bd6e73e7a2dde4fdad3ee50e
+SHA256: cefa30c44e725b7a39a3aded925f5ee08e0f0f4bab82f373148add3c226bcb41
+Section: extra
+Priority: Priority
+Homepage: http://sourceforge.net/projects/mod-ruid/
+Description: This module is used for tracking and disabling bandwidth when a user exceed their
+             bandwidth allocation
+
 Package: ze-apache24-mod-cache
 Source: ze-apache24
 Version: 2.4.51-4
